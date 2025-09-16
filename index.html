@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohan Kurne - About Me</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@400;500&display=swap"
+        rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            font-size: 16px;
+            color: #333;
+            margin: 0;
+            background: #f4f7f8;
+        }
+
+        nav {
+            background: #0d6efd;
+            padding: 15px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 16px;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        header {
+            background-color: #e8f0fe;
+            padding: 60px 20px;
+        }
+
+        .hero-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            max-width: 900px;
+            margin: 0 auto;
+            gap: 40px;
+            flex-wrap: wrap;
+        }
+
+        .hero-image img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #0d6efd;
+        }
+
+        .hero-info h1 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 2.5rem;
+            color: #0d6efd;
+            margin-bottom: 10px;
+        }
+
+        .hero-info h2 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 1.5rem;
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        .btn {
+            font-family: 'Poppins', sans-serif;
+            font-size: 1rem;
+            font-weight: 600;
+            display: inline-block;
+            padding: 12px 25px;
+            margin: 10px 10px 0 0;
+            border-radius: 5px;
+            background: #0d6efd;
+            color: white;
+            text-decoration: none;
+            transition: background 0.3s;
+        }
+
+        .btn:hover {
+            background: #0950b0;
+        }
+
+        .about-container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+
+        .about-container h3 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: #0d6efd;
+            margin-bottom: 15px;
+        }
+
+        .about-container p {
+            font-size: 1rem;
+            line-height: 1.6;
+            color: #555;
+            margin-bottom: 15px;
+        }
+
+        .about-container ul {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+
+        .about-container ul li {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #0d6efd;
+            color: white;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <a href="index.html">About</a>
+        <a href="skills.html">Skills</a>
+        <a href="projects.html">Projects</a>
+        <a href="education.html">Education</a>
+        <a href="leadership.html">Leadership</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <header>
+        <div class="hero-container">
+            <div class="hero-image">
+                <img src="profile.jpg" alt="Rohan Kurne">
+            </div>
+
+            <div class="hero-info">
+                <h1>Rohan Kurne</h1>
+                <h2>B.Tech ENTC Final Year | Java Full Stack & Flutter Developer</h2>
+                <a href="Rohan_Kurne_Resume.pdf" download class="btn">Download Resume</a>
+                <a href="projects.html" class="btn">View Projects</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="about-container">
+        <h3>About Me</h3>
+        <p>Java Full Stack Developer with experience in designing, developing, and maintaining web applications.
+            Skilled in Java (Spring Boot), HTML, CSS, JavaScript, and MySQL/PostgreSQL, with expertise in building
+            RESTful APIs and implementing secure, scalable solutions. Strong problem-solving abilities and experience
+            collaborating in Agile teams to deliver high-quality projects on time. Looking to leverage technical expertise
+            and innovative solutions to contribute effectively to dynamic development projects.</p>
+
+        <ul>
+            <li>Developed and maintained full-stack web applications, implementing backend services with Java (Spring
+                Boot) and frontend interfaces with HTML, CSS, and JavaScript.</li>
+            <li>Designed and integrated RESTful APIs and optimized database operations in MySQL/PostgreSQL to improve
+                performance and data handling.</li>
+            <li>Collaborated with cross-functional teams in Agile environments, participated in code reviews, applied Git
+                version control, and ensured secure and scalable software solutions.</li>
+        </ul>
+    </section>
+
+    <footer>
+        &copy; 2025 Rohan Kurne. All Rights Reserved.
+    </footer>
+
+</body>
+
+</html>
